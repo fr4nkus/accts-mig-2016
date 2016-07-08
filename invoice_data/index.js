@@ -19,7 +19,7 @@ mydb.query(
 		i.id AS invoice_number,	\
 		a.name AS agency,	\
 		cl.name AS client,	\
-		i.paid AS payment_recieved,	\
+		i.paid AS payment_received,	\
 		ii.units AS units_worked,	\
 		ii.rate,		\
 		ii.vat,			\
